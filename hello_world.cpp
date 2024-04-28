@@ -2,10 +2,10 @@
 #include <string>
 int main() {
 	std::string name;
-	//name input
+	//ввод имени
 	getline(std::cin, name);
 
-	//output
-	std::cout << "Hello world from " << name << std::endl;
+	//вывод
+	std::cout << "Hello, world from " << name << std::endl;
 	return 0;
 }
